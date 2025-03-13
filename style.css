@@ -11,9 +11,10 @@ body{
 }
 
 img{
-    width: 100%;
-    height: auto;
-    margin: 10px;
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    display: block;
 }
 
 p{
@@ -26,6 +27,21 @@ h1{
     text-align: center;
     margin: 20px 0;
 }
+
+.t2{
+    text-align: center;
+    margin: 20px auto;
+}
 li{
     list-style-position: inside;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button{
+    padding: 2px 10px;
 }
